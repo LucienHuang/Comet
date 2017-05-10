@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DFA1DBAB1EBE301F00BF8A6F /* WritingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA1DBAA1EBE301F00BF8A6F /* WritingViewController.swift */; };
+		DFA1DBAD1EBE3DC400BF8A6F /* WriteStoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA1DBAC1EBE3DC400BF8A6F /* WriteStoryViewController.swift */; };
+		DFA1DBAF1EBF88A200BF8A6F /* PublishedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA1DBAE1EBF88A200BF8A6F /* PublishedViewController.swift */; };
 		DFA821311EBB21600078D72A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA821301EBB21600078D72A /* AppDelegate.swift */; };
 		DFA821331EBB21600078D72A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA821321EBB21600078D72A /* ViewController.swift */; };
 		DFA821361EBB21600078D72A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFA821341EBB21600078D72A /* Main.storyboard */; };
@@ -14,6 +17,12 @@
 		DFA8213B1EBB21600078D72A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFA821391EBB21600078D72A /* LaunchScreen.storyboard */; };
 		DFA821461EBB21610078D72A /* CometTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA821451EBB21610078D72A /* CometTests.swift */; };
 		DFA821511EBB21610078D72A /* CometUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA821501EBB21610078D72A /* CometUITests.swift */; };
+		DFA8215F1EBB2FAE0078D72A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA8215E1EBB2FAE0078D72A /* MainViewController.swift */; };
+		DFA821611EBCD19C0078D72A /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA821601EBCD19C0078D72A /* CategoryViewController.swift */; };
+		DFA821631EBCD4F40078D72A /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA821621EBCD4F40078D72A /* homeViewController.swift */; };
+		DFA821651EBCD7F40078D72A /* BookDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA821641EBCD7F40078D72A /* BookDetailViewController.swift */; };
+		DFA821671EBD2CD10078D72A /* StoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA821661EBD2CD10078D72A /* StoryListViewController.swift */; };
+		DFA821691EBD3D650078D72A /* StoryReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA821681EBD3D650078D72A /* StoryReadViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DFA1DBAA1EBE301F00BF8A6F /* WritingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WritingViewController.swift; sourceTree = "<group>"; };
+		DFA1DBAC1EBE3DC400BF8A6F /* WriteStoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WriteStoryViewController.swift; sourceTree = "<group>"; };
+		DFA1DBAE1EBF88A200BF8A6F /* PublishedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublishedViewController.swift; sourceTree = "<group>"; };
 		DFA8212D1EBB21600078D72A /* Comet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Comet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFA821301EBB21600078D72A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFA821321EBB21600078D72A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,12 @@
 		DFA8214C1EBB21610078D72A /* CometUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CometUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFA821501EBB21610078D72A /* CometUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CometUITests.swift; sourceTree = "<group>"; };
 		DFA821521EBB21610078D72A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFA8215E1EBB2FAE0078D72A /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		DFA821601EBCD19C0078D72A /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		DFA821621EBCD4F40078D72A /* homeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		DFA821641EBCD7F40078D72A /* BookDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookDetailViewController.swift; sourceTree = "<group>"; };
+		DFA821661EBD2CD10078D72A /* StoryListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryListViewController.swift; sourceTree = "<group>"; };
+		DFA821681EBD3D650078D72A /* StoryReadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryReadViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +121,15 @@
 				DFA821371EBB21600078D72A /* Assets.xcassets */,
 				DFA821391EBB21600078D72A /* LaunchScreen.storyboard */,
 				DFA8213C1EBB21600078D72A /* Info.plist */,
+				DFA8215E1EBB2FAE0078D72A /* MainViewController.swift */,
+				DFA821601EBCD19C0078D72A /* CategoryViewController.swift */,
+				DFA821621EBCD4F40078D72A /* homeViewController.swift */,
+				DFA821641EBCD7F40078D72A /* BookDetailViewController.swift */,
+				DFA821661EBD2CD10078D72A /* StoryListViewController.swift */,
+				DFA821681EBD3D650078D72A /* StoryReadViewController.swift */,
+				DFA1DBAA1EBE301F00BF8A6F /* WritingViewController.swift */,
+				DFA1DBAC1EBE3DC400BF8A6F /* WriteStoryViewController.swift */,
+				DFA1DBAE1EBF88A200BF8A6F /* PublishedViewController.swift */,
 			);
 			path = Comet;
 			sourceTree = "<group>";
@@ -193,6 +220,7 @@
 				TargetAttributes = {
 					DFA8212C1EBB21600078D72A = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 79C5S7XFFD;
 						ProvisioningStyle = Automatic;
 					};
 					DFA821401EBB21610078D72A = {
@@ -259,7 +287,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFA821611EBCD19C0078D72A /* CategoryViewController.swift in Sources */,
+				DFA1DBAB1EBE301F00BF8A6F /* WritingViewController.swift in Sources */,
+				DFA8215F1EBB2FAE0078D72A /* MainViewController.swift in Sources */,
+				DFA821651EBCD7F40078D72A /* BookDetailViewController.swift in Sources */,
+				DFA1DBAD1EBE3DC400BF8A6F /* WriteStoryViewController.swift in Sources */,
 				DFA821331EBB21600078D72A /* ViewController.swift in Sources */,
+				DFA821691EBD3D650078D72A /* StoryReadViewController.swift in Sources */,
+				DFA821631EBCD4F40078D72A /* homeViewController.swift in Sources */,
+				DFA821671EBD2CD10078D72A /* StoryListViewController.swift in Sources */,
+				DFA1DBAF1EBF88A200BF8A6F /* PublishedViewController.swift in Sources */,
 				DFA821311EBB21600078D72A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +449,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 79C5S7XFFD;
 				INFOPLIST_FILE = Comet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Lucien.Comet;
@@ -424,6 +462,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 79C5S7XFFD;
 				INFOPLIST_FILE = Comet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Lucien.Comet;
@@ -505,6 +544,7 @@
 				DFA821571EBB21610078D72A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFA821581EBB21610078D72A /* Build configuration list for PBXNativeTarget "CometTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +553,7 @@
 				DFA8215A1EBB21610078D72A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFA8215B1EBB21610078D72A /* Build configuration list for PBXNativeTarget "CometUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +562,7 @@
 				DFA8215D1EBB21610078D72A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
