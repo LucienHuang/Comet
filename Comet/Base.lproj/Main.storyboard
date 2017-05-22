@@ -260,6 +260,9 @@ As for me, I’m a computer scientist and engineer. I was chosen to be on this m
                                     <constraint firstAttribute="trailing" secondItem="Zqc-T3-Off" secondAttribute="trailing" constant="8" id="wRX-lM-KgI"/>
                                     <constraint firstItem="7dr-gr-7Ox" firstAttribute="top" secondItem="WZp-6q-utm" secondAttribute="top" constant="1400" id="xKr-zq-h53"/>
                                 </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="yLD-Na-XuB" id="7hI-Ip-IAe"/>
+                                </connections>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.8784313725490196" green="0.87058823529411766" blue="0.81176470588235294" alpha="1" colorSpace="calibratedRGB"/>
@@ -502,6 +505,12 @@ As for me, I’m a computer scientist and engineer. I was chosen to be on this m
                                 <color key="titleColor" red="0.90196078430000004" green="0.93725490199999995" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
                             </state>
                         </button>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="9mi-zt-RBC">
+                            <color key="tintColor" red="0.90196078430000004" green="0.93725490199999995" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="done:" destination="aMc-nU-jTh" id="aJH-4G-sPc"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="chapterText" destination="vyV-jW-HUH" id="EyA-GQ-wd5"/>

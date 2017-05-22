@@ -122,12 +122,12 @@
 				DFA821391EBB21600078D72A /* LaunchScreen.storyboard */,
 				DFA8213C1EBB21600078D72A /* Info.plist */,
 				DFA8215E1EBB2FAE0078D72A /* MainViewController.swift */,
+				DFA1DBAA1EBE301F00BF8A6F /* WritingViewController.swift */,
 				DFA821601EBCD19C0078D72A /* CategoryViewController.swift */,
 				DFA821621EBCD4F40078D72A /* homeViewController.swift */,
 				DFA821641EBCD7F40078D72A /* BookDetailViewController.swift */,
 				DFA821661EBD2CD10078D72A /* StoryListViewController.swift */,
 				DFA821681EBD3D650078D72A /* StoryReadViewController.swift */,
-				DFA1DBAA1EBE301F00BF8A6F /* WritingViewController.swift */,
 				DFA1DBAC1EBE3DC400BF8A6F /* WriteStoryViewController.swift */,
 				DFA1DBAE1EBF88A200BF8A6F /* PublishedViewController.swift */,
 			);

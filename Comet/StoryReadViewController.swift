@@ -117,3 +117,10 @@ class StoryReadViewController: UIViewController, UITextFieldDelegate, UITextView
     */
 
 }
+
+extension StoryReadViewController:UIScrollViewDelegate {
+    func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
+        chapter2Title.resignFirstResponder()
+        chapter2Text.resignFirstResponder()
+    }
+}

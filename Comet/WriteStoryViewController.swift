@@ -63,5 +63,11 @@ class WriteStoryViewController: UIViewController, UITextFieldDelegate, UITextVie
             }
         }
     }
+    
+    @IBAction func done(_ sender: Any) {
+        chapterTitle.resignFirstResponder()
+        chapterText.resignFirstResponder()
+    }
+    
 
 }

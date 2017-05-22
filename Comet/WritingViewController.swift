@@ -52,11 +52,6 @@ class WritingViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
         // Dispose of any resources that can be recreated.
     }
     
-    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        self.view.endEditing(true)
-        return false
-    }
-    
     
     @IBAction func addCover(_ sender: Any) {
         coverImg.isHidden = false
@@ -88,7 +83,6 @@ class WritingViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         picked = categories[row]
     }
-    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "startWriting"{
             if let vc = segue.destination as?WriteStoryViewController{
